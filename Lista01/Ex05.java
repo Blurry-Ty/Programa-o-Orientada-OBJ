@@ -1,10 +1,9 @@
 import javax.swing.JOptionPane;
-import java.lang.Math;
+
 
 public class Ex05 {
     public static void main(String[] args) {
         int A;
-        int[] notas = {200, 100, 50, 20, 10, 5, 2, 1};
         int res,restoA, resb, restoB, resc, restoC, resd, restoD, rese, restoE, resf, restoF, resg, restoG, resh;
         A = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de A: "));
         
