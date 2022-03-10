@@ -1,4 +1,4 @@
-# Programa-o-Orientada-OBJ
+# Programação Orientada a Objeto
 
 Exercicios feitos em aula/ Provas sla
 
