@@ -11,5 +11,3 @@ Discussão aberta na aba "Discussions"
 **Ultima atualização dia: 12.04.22**
 
 
-A 
-B
