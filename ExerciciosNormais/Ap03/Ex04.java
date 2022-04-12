@@ -4,25 +4,16 @@ import javax.swing.JOptionPane;
 
 public class Ex04 {
     public static void main(String[] args) {
-        
-        // Definindo input
         int A;
         A = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de A: "));
-        
-        // Criando lista com os dias da semana
         String[] Semana = {null, "Domingo", "Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado"};
         
-        
-        // O simbolo && significa "and"
-        // Se A for maior que zero e menor que 8 ele colocar o dia da semana referente ao numero na lista
         if (0 < A && A < 8 ){
         JOptionPane.showMessageDialog(null, Semana[A]);
         }
         else{
             JOptionPane.showMessageDialog(null, "Por favor escolha um numero de 1 a 7");
         }
-        
-        // Outro modo de fazer pra que nao entendeu a lista
 
         // switch (A) {
         //     case 1:
