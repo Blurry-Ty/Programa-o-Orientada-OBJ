@@ -6,7 +6,7 @@
 
 	A inexistencia da instrução break em alguns cases causa erros em tempo de compilação.
 
-	A forma como a estrutura for foi escrita está incorreta pois ela requer apenas dois símbolos " ; " (ponto e vírgula).
+	Não compila
 
 	A indentação do programa revela que a estrutura for faz parte do corpo da estrutura while.
 
