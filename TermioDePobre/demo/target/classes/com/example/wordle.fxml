@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle">
+   <center>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="286.0" prefWidth="600.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Wordon">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="L1P1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L1P2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L1P3" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L1P4" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L1P5" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="L2P1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L2P2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L2P3" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L2P4" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L2P5" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="L3P1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L3P2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L3P3" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L3P4" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L3P5" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="L4P1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L4P2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L4P3" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L4P4" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L4P5" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="L5P1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L5P2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L5P3" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L5P4" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L5P5" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: Black;" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <TextField fx:id="tentativa" onAction="#tent">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="botao" mnemonicParsing="false" onAction="#resetar" style="-fx-background-color: #616161;" text="Proxima" textFill="WHITE" visible="false" />
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Label fx:id="clock" alignment="CENTER" contentDisplay="CENTER" text="Clock" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
